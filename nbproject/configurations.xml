@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Analizer.hpp</itemPath>
+      <itemPath>ClassObject.h</itemPath>
+      <itemPath>FunctionObject.h</itemPath>
+      <itemPath>Objects.h</itemPath>
+      <itemPath>Reader.hpp</itemPath>
+      <itemPath>Tree.hpp</itemPath>
+      <itemPath>VarObject.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Analizer.cpp</itemPath>
+      <itemPath>ClassObject.cpp</itemPath>
+      <itemPath>FunctionObject.cpp</itemPath>
+      <itemPath>Objects.cpp</itemPath>
+      <itemPath>Reader.cpp</itemPath>
+      <itemPath>Tree.cpp</itemPath>
+      <itemPath>VarObject.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Analizer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Analizer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClassObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClassObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FunctionObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FunctionObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Objects.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Objects.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Reader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Reader.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Tree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Tree.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VarObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VarObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Analizer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Analizer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClassObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ClassObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FunctionObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FunctionObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Objects.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Objects.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Reader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Reader.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Tree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Tree.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VarObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VarObject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
